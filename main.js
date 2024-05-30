@@ -1,6 +1,5 @@
-for (let i = 20; i <= 30; i += 0.5) {
-    console.log(i);
-};
-
-
-
+let value = +prompt("Введіть число", '');
+for (let i = 1; i <= 100; i++) {
+    if (i * i <= value)
+        console.log(i);
+}
